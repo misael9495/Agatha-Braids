@@ -48,7 +48,7 @@ export default function About() {
                 alt="Agatha - Profissional de Tranças"
                 width={400}
                 height={500}
-                className="relative rounded-2xl object-cover h-[500px] w-full shadow-2xl"
+                className="relative rounded-2xl object-cover w-full h-auto shadow-2xl"
                 priority
               />
             </div>
