@@ -119,7 +119,7 @@ export default function Portfolio() {
               onMouseLeave={() => setHoveredIndex(null)}
             >
               {/* Image Container */}
-              <div className="relative h-80 overflow-hidden bg-muted">
+              <div className="relative h-64 sm:h-72 lg:h-80 overflow-hidden bg-muted">
                 <Image
                   src={item.image}
                   alt={item.title}
@@ -127,8 +127,12 @@ export default function Portfolio() {
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   loading="lazy"
-                  quality={75}
+                  quality={80}
                   priority={false}
+                  onError={(e) => {
+                    const img = e.target as HTMLImageElement;
+                    img.src = item.image;
+                  }}
                 />
 
                 {/* Overlay */}
