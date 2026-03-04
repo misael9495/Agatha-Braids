@@ -57,7 +57,7 @@ export default function Footer() {
         <div className="border-t border-white/20 pt-8 text-center text-white/60 text-sm">
           <p className="flex items-center justify-center gap-2">
             © 2026 A.M Braids. Feito com{" "}
-            <Heart className="w-4 h-4 text-primary" /> por Agatha
+            <Heart className="w-4 h-4 text-primary" /> por Home.Dev
           </p>
         </div>
       </div>
