@@ -41,14 +41,14 @@ export default function About() {
                 : "-translate-x-20 opacity-0"
             }`}
           >
-            <div className="relative">
+            <div className="relative aspect-[4/5]">
               <div className="absolute -inset-4 bg-gradient-to-r from-primary via-secondary to-accent rounded-2xl blur opacity-75" />
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/agatha.png-xGWbmHuiZelrY3gRNdMViQ7pblIzeM.jpeg"
                 alt="Agatha - Profissional de Tranças"
                 width={400}
                 height={500}
-                className="relative rounded-2xl object-cover w-full h-auto shadow-2xl"
+                className="relative rounded-2xl object-cover w-full h-full shadow-2xl"
                 priority
               />
             </div>
