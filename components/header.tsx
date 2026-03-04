@@ -25,7 +25,7 @@ export default function Header() {
             alt="A.M Braids Logo"
             width={80}
             height={80}
-            className="h-14 w-auto"
+            className="h-14 w-auto object-contain"
             priority
           />
         </div>
